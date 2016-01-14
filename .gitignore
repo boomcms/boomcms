@@ -6,3 +6,4 @@ public/vendor
 storage/boomcms/
 migrations/boomcms/
 resources/views/auth/
+resources/lang/
