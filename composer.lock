@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "boomcms/boom-core",
-            "version": "v4.2.0",
+            "version": "v4.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boomcms/boom-core.git",
-                "reference": "3a54eb1d3e273bae3ecdf235ab208c2e171aa8ae"
+                "reference": "2d89e0413e403daccdf7d9dbb453291186088aaa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boomcms/boom-core/zipball/3a54eb1d3e273bae3ecdf235ab208c2e171aa8ae",
-                "reference": "3a54eb1d3e273bae3ecdf235ab208c2e171aa8ae",
+                "url": "https://api.github.com/repos/boomcms/boom-core/zipball/2d89e0413e403daccdf7d9dbb453291186088aaa",
+                "reference": "2d89e0413e403daccdf7d9dbb453291186088aaa",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 "MIT"
             ],
             "description": "Core classes for BoomCMS",
-            "time": "2016-01-18 10:23:52"
+            "time": "2016-01-19 12:07:41"
         },
         {
             "name": "boomcms/boom-installer",
