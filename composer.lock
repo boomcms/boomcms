@@ -4,41 +4,43 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dca26b1973bee49ce6508e20ba37c242",
-    "content-hash": "36125b15d0501e644b25551b408e2a9d",
+    "hash": "1e304600b9b5a0a45fa08796ab704891",
+    "content-hash": "567df2bf7e6e0c1d5b53b49607621518",
     "packages": [
         {
             "name": "boomcms/boom-core",
-            "version": "v4.2.5",
+            "version": "v4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boomcms/boom-core.git",
-                "reference": "2d89e0413e403daccdf7d9dbb453291186088aaa"
+                "reference": "4eb277ab5ca9a32759ee54efcf9b003651312663"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boomcms/boom-core/zipball/2d89e0413e403daccdf7d9dbb453291186088aaa",
-                "reference": "2d89e0413e403daccdf7d9dbb453291186088aaa",
+                "url": "https://api.github.com/repos/boomcms/boom-core/zipball/4eb277ab5ca9a32759ee54efcf9b003651312663",
+                "reference": "4eb277ab5ca9a32759ee54efcf9b003651312663",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": "~2.3",
                 "ext-imagick": "*",
                 "genphrase/genphrase": "1.0.*",
-                "hautelook/phpass": "dev-master",
+                "hautelook/phpass": "0.3.4",
                 "illuminate/html": "5.*",
                 "intervention/imagecache": "2.*",
-                "laravel/framework": "~5.1",
+                "laravel/framework": "5.1.*",
+                "lootils/geo": "^0.1.1",
                 "mpratt/embera": "~1.0",
                 "php": ">=5.3",
                 "rych/bytesize": "1.0.*",
                 "symfony/http-kernel": "2.*",
-                "thujohn/rss": "dev-master"
+                "thujohn/rss": "~1.0"
             },
             "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
                 "laravel/laravel": "~5.1",
                 "mockery/mockery": "^0.9.4",
-                "phpunit/phpunit": "4.3.*"
+                "phpunit/phpunit": "4.8.*"
             },
             "type": "library",
             "autoload": {
@@ -51,20 +53,20 @@
                 "MIT"
             ],
             "description": "Core classes for BoomCMS",
-            "time": "2016-01-19 12:07:41"
+            "time": "2016-02-15 18:04:35"
         },
         {
             "name": "boomcms/boom-installer",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boomcms/boom-installer.git",
-                "reference": "c73f206fd1f0766865e04eab28cf9200efcf2827"
+                "reference": "461b01dae93f0f435c5eddcb338eea79eeb3b37f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boomcms/boom-installer/zipball/c73f206fd1f0766865e04eab28cf9200efcf2827",
-                "reference": "c73f206fd1f0766865e04eab28cf9200efcf2827",
+                "url": "https://api.github.com/repos/boomcms/boom-installer/zipball/461b01dae93f0f435c5eddcb338eea79eeb3b37f",
+                "reference": "461b01dae93f0f435c5eddcb338eea79eeb3b37f",
                 "shasum": ""
             },
             "require": {
@@ -92,7 +94,7 @@
                 }
             ],
             "description": "BoomCMS installer",
-            "time": "2016-01-18 10:38:25"
+            "time": "2016-02-15 17:58:25"
         },
         {
             "name": "boomcms/boom-robotstxt",
@@ -313,24 +315,25 @@
         },
         {
             "name": "davidbarratt/custom-installer",
-            "version": "1.0.0-alpha1",
+            "version": "1.0.0-alpha2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/davidbarratt/custom-installer.git",
-                "reference": "1961a377c6e4435301f225154d17fe1f3d0f2ea7"
+                "reference": "90009113204b8b6257ead91866cc5cddc6876834"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/davidbarratt/custom-installer/zipball/1961a377c6e4435301f225154d17fe1f3d0f2ea7",
-                "reference": "1961a377c6e4435301f225154d17fe1f3d0f2ea7",
+                "url": "https://api.github.com/repos/davidbarratt/custom-installer/zipball/90009113204b8b6257ead91866cc5cddc6876834",
+                "reference": "90009113204b8b6257ead91866cc5cddc6876834",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0"
+                "composer-plugin-api": "~1.0"
             },
             "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "4.1.*"
+                "composer/composer": "~1.0@dev",
+                "phpunit/phpunit": "~4.1",
+                "squizlabs/php_codesniffer": "~2.5"
             },
             "type": "composer-plugin",
             "extra": {
@@ -338,7 +341,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "DavidBarratt\\CustomInstaller\\": ""
+                    "DavidBarratt\\CustomInstaller\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -347,7 +350,7 @@
             ],
             "description": "Install custom types into custom locations.",
             "homepage": "https://github.com/davidbarratt/custom-installer",
-            "time": "2014-09-01 15:46:17"
+            "time": "2016-01-23 14:33:27"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -892,16 +895,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "4d0bdbe1206df7440219ce14c972aa57cc5e4982"
+                "reference": "f5d04bdd2881ac89abde1fb78cc234bce24327bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/4d0bdbe1206df7440219ce14c972aa57cc5e4982",
-                "reference": "4d0bdbe1206df7440219ce14c972aa57cc5e4982",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/f5d04bdd2881ac89abde1fb78cc234bce24327bb",
+                "reference": "f5d04bdd2881ac89abde1fb78cc234bce24327bb",
                 "shasum": ""
             },
             "require": {
@@ -946,11 +949,11 @@
                 "stream",
                 "uri"
             ],
-            "time": "2015-11-03 01:34:55"
+            "time": "2016-01-23 01:23:02"
         },
         {
             "name": "hautelook/phpass",
-            "version": "dev-master",
+            "version": "0.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hautelook/phpass.git",
@@ -990,7 +993,7 @@
                 "password",
                 "security"
             ],
-            "time": "2015-05-12 10:04:16"
+            "time": "2012-08-31 00:00:00"
         },
         {
             "name": "illuminate/html",
@@ -1300,16 +1303,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.1.28",
+            "version": "v5.1.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3f0fd27939dfdafb1e50058423cd24e640894ba2"
+                "reference": "7e7ba568ffbc8f3f00778f2e8f41fb92127944fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3f0fd27939dfdafb1e50058423cd24e640894ba2",
-                "reference": "3f0fd27939dfdafb1e50058423cd24e640894ba2",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/7e7ba568ffbc8f3f00778f2e8f41fb92127944fd",
+                "reference": "7e7ba568ffbc8f3f00778f2e8f41fb92127944fd",
                 "shasum": ""
             },
             "require": {
@@ -1424,7 +1427,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-12-31 17:41:30"
+            "time": "2016-02-02 14:56:40"
         },
         {
             "name": "league/flysystem",
@@ -1511,6 +1514,51 @@
             "time": "2015-12-19 20:16:43"
         },
         {
+            "name": "lootils/geo",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lootils/geo.git",
+                "reference": "e2d3237c3ac0addfc898dccccdf73e838a102e1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lootils/geo/zipball/e2d3237c3ac0addfc898dccccdf73e838a102e1c",
+                "reference": "e2d3237c3ac0addfc898dccccdf73e838a102e1c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Lootils\\Geo": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Farina",
+                    "email": "matt@mattfarina.com",
+                    "homepage": "http://mattfarina.com"
+                }
+            ],
+            "description": "A simple library for dealing with Earth geo coordinate manipulations.",
+            "homepage": "https://github.com/lootils/geo",
+            "keywords": [
+                "coordinates",
+                "geo",
+                "geodetic",
+                "geolocation",
+                "math"
+            ],
+            "time": "2013-06-10 12:28:05"
+        },
+        {
             "name": "monolog/monolog",
             "version": "1.17.2",
             "source": {
@@ -1589,16 +1637,16 @@
         },
         {
             "name": "mpratt/embera",
-            "version": "1.8.14",
+            "version": "1.8.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpratt/Embera.git",
-                "reference": "a215197efdfeefaf135b70534ade554b23bf5023"
+                "reference": "43c55cd1402ebb957895a109627487136f5e867d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpratt/Embera/zipball/a215197efdfeefaf135b70534ade554b23bf5023",
-                "reference": "a215197efdfeefaf135b70534ade554b23bf5023",
+                "url": "https://api.github.com/repos/mpratt/Embera/zipball/43c55cd1402ebb957895a109627487136f5e867d",
+                "reference": "43c55cd1402ebb957895a109627487136f5e867d",
                 "shasum": ""
             },
             "require": {
@@ -1636,27 +1684,27 @@
                 "vine",
                 "youtube"
             ],
-            "time": "2016-01-11 17:53:04"
+            "time": "2016-01-21 14:24:42"
         },
         {
             "name": "mtdowling/cron-expression",
-            "version": "v1.0.4",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mtdowling/cron-expression.git",
-                "reference": "fd92e883195e5dfa77720b1868cf084b08be4412"
+                "reference": "c9ee7886f5a12902b225a1a12f36bb45f9ab89e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mtdowling/cron-expression/zipball/fd92e883195e5dfa77720b1868cf084b08be4412",
-                "reference": "fd92e883195e5dfa77720b1868cf084b08be4412",
+                "url": "https://api.github.com/repos/mtdowling/cron-expression/zipball/c9ee7886f5a12902b225a1a12f36bb45f9ab89e5",
+                "reference": "c9ee7886f5a12902b225a1a12f36bb45f9ab89e5",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.*"
+                "phpunit/phpunit": "~4.0|~5.0"
             },
             "type": "library",
             "autoload": {
@@ -1680,7 +1728,7 @@
                 "cron",
                 "schedule"
             ],
-            "time": "2015-01-11 23:07:46"
+            "time": "2016-01-26 21:23:30"
         },
         {
             "name": "nesbot/carbon",
@@ -1782,16 +1830,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "1.1.5",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "dd8998b7c846f6909f4e7a5f67fabebfc412a4f7"
+                "reference": "b0e69d10852716b2ccbdff69c75c477637220790"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/dd8998b7c846f6909f4e7a5f67fabebfc412a4f7",
-                "reference": "dd8998b7c846f6909f4e7a5f67fabebfc412a4f7",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/b0e69d10852716b2ccbdff69c75c477637220790",
+                "reference": "b0e69d10852716b2ccbdff69c75c477637220790",
                 "shasum": ""
             },
             "require": {
@@ -1826,7 +1874,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-01-06 13:31:20"
+            "time": "2016-02-06 03:52:05"
         },
         {
             "name": "psr/http-message",
@@ -2557,16 +2605,16 @@
         },
         {
             "name": "symfony/polyfill-php56",
-            "version": "v1.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php56.git",
-                "reference": "e2e77609a9e2328eb370fbb0e0d8b2000ebb488f"
+                "reference": "4d891fff050101a53a4caabb03277284942d1ad9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/e2e77609a9e2328eb370fbb0e0d8b2000ebb488f",
-                "reference": "e2e77609a9e2328eb370fbb0e0d8b2000ebb488f",
+                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/4d891fff050101a53a4caabb03277284942d1ad9",
+                "reference": "4d891fff050101a53a4caabb03277284942d1ad9",
                 "shasum": ""
             },
             "require": {
@@ -2576,7 +2624,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -2609,20 +2657,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2015-12-18 15:10:25"
+            "time": "2016-01-20 09:13:37"
         },
         {
             "name": "symfony/polyfill-util",
-            "version": "v1.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-util.git",
-                "reference": "4271c55cbc0a77b2641f861b978123e46b3da969"
+                "reference": "8de62801aa12bc4dfcf85eef5d21981ae7bb3cc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/4271c55cbc0a77b2641f861b978123e46b3da969",
-                "reference": "4271c55cbc0a77b2641f861b978123e46b3da969",
+                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/8de62801aa12bc4dfcf85eef5d21981ae7bb3cc4",
+                "reference": "8de62801aa12bc4dfcf85eef5d21981ae7bb3cc4",
                 "shasum": ""
             },
             "require": {
@@ -2631,7 +2679,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -2661,7 +2709,7 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2015-11-04 20:28:58"
+            "time": "2016-01-20 09:13:37"
         },
         {
             "name": "symfony/process",
@@ -2909,7 +2957,7 @@
         },
         {
             "name": "thujohn/rss",
-            "version": "dev-master",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thujohn/rss-l4.git",
