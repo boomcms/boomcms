@@ -40,6 +40,7 @@
 			"php artisan vendor:publish --force",
 			"php artisan clear-compiled",
 			"php artisan boomcms:installTemplates",
+			"php artisan boomcms:publish --force",
 			"php artisan migrate --path=migrations/boomcms --force",
 			"php artisan optimize"
 		],
