@@ -3,10 +3,10 @@
 	"description": "BoomCMS is built on Laravel 5 and released under the MIT license. BoomCMS is designed to be easy to use for content editors and developers alike",
 	"require": {
 		"davidbarratt/custom-installer": "1.*",
-		"boomcms/boom-core": ">=3.2",
-		"boomcms/boom-installer": ">=1.0",
-		"boomcms/boom-robotstxt": ">=3.1",
-		"boomcms/boom-sitemap": ">=3.1",
+		"boomcms/boom-core": "dev-master as 5.0",
+		"boomcms/boom-robotstxt": "3.2.*",
+		"boomcms/boom-sitemap": "3.1.*",
+		"boomcms/boom-installer": "dev-master",
 		"wikimedia/composer-merge-plugin": "^1.3@dev"
 	},
 	"license": "MIT",
@@ -40,6 +40,7 @@
 			"php artisan vendor:publish --force",
 			"php artisan clear-compiled",
 			"php artisan boomcms:installTemplates",
+			"php artisan boomcms:publish --force",
 			"php artisan migrate --path=migrations/boomcms --force",
 			"php artisan optimize"
 		],
