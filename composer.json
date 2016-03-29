@@ -4,8 +4,8 @@
 	"require": {
 		"davidbarratt/custom-installer": "1.*",
 		"boomcms/boom-core": "dev-master as 5.0",
-		"boomcms/boom-robotstxt": "3.2.*",
-		"boomcms/boom-sitemap": "3.1.*",
+		"boomcms/boom-robotstxt": "dev-master as 3.3",
+		"boomcms/boom-sitemap": "dev-master as 3.2",
 		"boomcms/boom-installer": "dev-master",
 		"wikimedia/composer-merge-plugin": "^1.3@dev"
 	},
