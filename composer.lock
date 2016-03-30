@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3ecab2499e115ad003e9ab8de04fa071",
-    "content-hash": "9d75d199e1ecde073b7570b78757a417",
+    "hash": "d4ad7f9a6ce2851373b76e2569202ccc",
+    "content-hash": "5426aeb35e32751354c892884e53017c",
     "packages": [
         {
             "name": "boomcms/boom-core",
-            "version": "dev-master",
+            "version": "v5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boomcms/boom-core.git",
-                "reference": "ea4f1fead3992c03809529900a89bfa862dad051"
+                "reference": "d0713dd98fb90c1dcb4f477eb998c162517e5dde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boomcms/boom-core/zipball/ea4f1fead3992c03809529900a89bfa862dad051",
-                "reference": "ea4f1fead3992c03809529900a89bfa862dad051",
+                "url": "https://api.github.com/repos/boomcms/boom-core/zipball/d0713dd98fb90c1dcb4f477eb998c162517e5dde",
+                "reference": "d0713dd98fb90c1dcb4f477eb998c162517e5dde",
                 "shasum": ""
             },
             "require": {
@@ -53,20 +53,20 @@
                 "MIT"
             ],
             "description": "Core classes for BoomCMS",
-            "time": "2016-03-24 10:14:23"
+            "time": "2016-03-30 10:01:20"
         },
         {
             "name": "boomcms/boom-installer",
-            "version": "dev-master",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boomcms/boom-installer.git",
-                "reference": "0b949a7c0f21e80c6d3f13a5948f354d1aefc72d"
+                "reference": "a21566f05536b99e4f3970ee63b54ac571869a90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boomcms/boom-installer/zipball/0b949a7c0f21e80c6d3f13a5948f354d1aefc72d",
-                "reference": "0b949a7c0f21e80c6d3f13a5948f354d1aefc72d",
+                "url": "https://api.github.com/repos/boomcms/boom-installer/zipball/a21566f05536b99e4f3970ee63b54ac571869a90",
+                "reference": "a21566f05536b99e4f3970ee63b54ac571869a90",
                 "shasum": ""
             },
             "require": {
@@ -94,11 +94,11 @@
                 }
             ],
             "description": "BoomCMS installer",
-            "time": "2016-02-23 12:50:54"
+            "time": "2016-03-30 10:02:37"
         },
         {
             "name": "boomcms/boom-robotstxt",
-            "version": "dev-master",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boomcms/boom-robotstxt.git",
@@ -138,7 +138,7 @@
         },
         {
             "name": "boomcms/boom-sitemap",
-            "version": "dev-master",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boomcms/boom-sitemap.git",
@@ -174,6 +174,34 @@
             ],
             "description": "sitemap.xml generator for BoomCMS",
             "time": "2015-11-16 10:28:16"
+        },
+        {
+            "name": "boomcms/theme-default",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boomcms/theme-default.git",
+                "reference": "16bac32f3cf8f2fb2a23341b7c788e550254463d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boomcms/theme-default/zipball/16bac32f3cf8f2fb2a23341b7c788e550254463d",
+                "reference": "16bac32f3cf8f2fb2a23341b7c788e550254463d",
+                "shasum": ""
+            },
+            "type": "boomcms-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Taylor",
+                    "email": "rob@uxblondon.com"
+                }
+            ],
+            "description": "Default theme for BoomCMS",
+            "time": "2015-11-14 13:15:27"
         },
         {
             "name": "classpreloader/classpreloader",
@@ -2979,32 +3007,9 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [
-        {
-            "alias": "5.0",
-            "alias_normalized": "5.0.0.0",
-            "version": "9999999-dev",
-            "package": "boomcms/boom-core"
-        },
-        {
-            "alias": "3.3",
-            "alias_normalized": "3.3.0.0",
-            "version": "9999999-dev",
-            "package": "boomcms/boom-robotstxt"
-        },
-        {
-            "alias": "3.2",
-            "alias_normalized": "3.2.0.0",
-            "version": "9999999-dev",
-            "package": "boomcms/boom-sitemap"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "boomcms/boom-core": 20,
-        "boomcms/boom-robotstxt": 20,
-        "boomcms/boom-sitemap": 20,
-        "boomcms/boom-installer": 20,
         "wikimedia/composer-merge-plugin": 20
     },
     "prefer-stable": true,
