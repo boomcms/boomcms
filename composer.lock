@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5ed434e7c7b0a76ea79a2f2fa6068f2d",
-    "content-hash": "981e14431be54e9c2ac4f33998329d11",
+    "hash": "a2499c01d97617544e6e544f02671f90",
+    "content-hash": "11b6f049f2d2802f17ac50b3cd3dba26",
     "packages": [
         {
             "name": "alchemy/binary-driver",
@@ -66,16 +66,16 @@
         },
         {
             "name": "boomcms/boom-core",
-            "version": "dev-master",
+            "version": "v6.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boomcms/boom-core.git",
-                "reference": "d1267579f23a7d9b0dc3ec9afa673d36ba8c2b80"
+                "reference": "2e73bb2fc369978ab841aaf42cd54fbb6974196e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boomcms/boom-core/zipball/d1267579f23a7d9b0dc3ec9afa673d36ba8c2b80",
-                "reference": "d1267579f23a7d9b0dc3ec9afa673d36ba8c2b80",
+                "url": "https://api.github.com/repos/boomcms/boom-core/zipball/2e73bb2fc369978ab841aaf42cd54fbb6974196e",
+                "reference": "2e73bb2fc369978ab841aaf42cd54fbb6974196e",
                 "shasum": ""
             },
             "require": {
@@ -114,20 +114,20 @@
                 "MIT"
             ],
             "description": "Core classes for BoomCMS",
-            "time": "2017-02-17 14:41:01"
+            "time": "2017-02-20 10:48:19"
         },
         {
             "name": "boomcms/boom-installer",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boomcms/boom-installer.git",
-                "reference": "a21566f05536b99e4f3970ee63b54ac571869a90"
+                "reference": "870e612a7cdb04eadabcc0aa1d9a457ccb1e8cb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boomcms/boom-installer/zipball/a21566f05536b99e4f3970ee63b54ac571869a90",
-                "reference": "a21566f05536b99e4f3970ee63b54ac571869a90",
+                "url": "https://api.github.com/repos/boomcms/boom-installer/zipball/870e612a7cdb04eadabcc0aa1d9a457ccb1e8cb8",
+                "reference": "870e612a7cdb04eadabcc0aa1d9a457ccb1e8cb8",
                 "shasum": ""
             },
             "require": {
@@ -155,7 +155,7 @@
                 }
             ],
             "description": "BoomCMS installer",
-            "time": "2016-03-30 10:02:37"
+            "time": "2017-01-30 16:35:49"
         },
         {
             "name": "boomcms/boom-robotstxt",
@@ -235,6 +235,34 @@
             ],
             "description": "sitemap.xml generator for BoomCMS",
             "time": "2016-12-02 12:54:29"
+        },
+        {
+            "name": "boomcms/theme-default",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boomcms/theme-default.git",
+                "reference": "16bac32f3cf8f2fb2a23341b7c788e550254463d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boomcms/theme-default/zipball/16bac32f3cf8f2fb2a23341b7c788e550254463d",
+                "reference": "16bac32f3cf8f2fb2a23341b7c788e550254463d",
+                "shasum": ""
+            },
+            "type": "boomcms-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Taylor",
+                    "email": "rob@uxblondon.com"
+                }
+            ],
+            "description": "Default theme for BoomCMS",
+            "time": "2015-11-14 13:15:27"
         },
         {
             "name": "caxy/php-htmldiff",
@@ -3972,17 +4000,9 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [
-        {
-            "alias": "6.1",
-            "alias_normalized": "6.1.0.0",
-            "version": "9999999-dev",
-            "package": "boomcms/boom-core"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "boomcms/boom-core": 20,
         "wikimedia/composer-merge-plugin": 20
     },
     "prefer-stable": true,
