@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0ebdd3f4540cc4222ee75aa8f05f9a93",
-    "content-hash": "4b17c1db6ff4a71c8b278ee4b58e6265",
+    "hash": "612ddbf814976e7153be5cc2db4a0eee",
+    "content-hash": "3eac02fb23c0de9ea906e47e6cc08920",
     "packages": [
         {
             "name": "alchemy/binary-driver",
@@ -66,16 +66,16 @@
         },
         {
             "name": "boomcms/boom-core",
-            "version": "dev-master",
+            "version": "7.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boomcms/boom-core.git",
-                "reference": "023a6fdc65db9fa80ebe2f9507cbe377cd3d74e0"
+                "reference": "b1c4c73ce67c964581262ef3bdbbe54018c53ffd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boomcms/boom-core/zipball/023a6fdc65db9fa80ebe2f9507cbe377cd3d74e0",
-                "reference": "023a6fdc65db9fa80ebe2f9507cbe377cd3d74e0",
+                "url": "https://api.github.com/repos/boomcms/boom-core/zipball/b1c4c73ce67c964581262ef3bdbbe54018c53ffd",
+                "reference": "b1c4c73ce67c964581262ef3bdbbe54018c53ffd",
                 "shasum": ""
             },
             "require": {
@@ -115,7 +115,7 @@
                 "MIT"
             ],
             "description": "Core classes for BoomCMS",
-            "time": "2017-04-19 14:52:51"
+            "time": "2017-04-19 15:15:41"
         },
         {
             "name": "boomcms/boom-installer",
@@ -3884,17 +3884,9 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [
-        {
-            "alias": "7.0",
-            "alias_normalized": "7.0.0.0",
-            "version": "9999999-dev",
-            "package": "boomcms/boom-core"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "boomcms/boom-core": 20,
         "wikimedia/composer-merge-plugin": 20
     },
     "prefer-stable": true,
