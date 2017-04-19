@@ -66,16 +66,16 @@
         },
         {
             "name": "boomcms/boom-core",
-            "version": "7.0.x-dev",
+            "version": "v7.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boomcms/boom-core.git",
-                "reference": "b1c4c73ce67c964581262ef3bdbbe54018c53ffd"
+                "reference": "d351f4885f16cd4dd334ae91dd04f16a986798e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boomcms/boom-core/zipball/b1c4c73ce67c964581262ef3bdbbe54018c53ffd",
-                "reference": "b1c4c73ce67c964581262ef3bdbbe54018c53ffd",
+                "url": "https://api.github.com/repos/boomcms/boom-core/zipball/d351f4885f16cd4dd334ae91dd04f16a986798e1",
+                "reference": "d351f4885f16cd4dd334ae91dd04f16a986798e1",
                 "shasum": ""
             },
             "require": {
@@ -115,7 +115,7 @@
                 "MIT"
             ],
             "description": "Core classes for BoomCMS",
-            "time": "2017-04-19 15:15:41"
+            "time": "2017-04-19 15:43:37"
         },
         {
             "name": "boomcms/boom-installer",
