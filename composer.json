@@ -31,7 +31,7 @@
     "minimum-stability": "dev",
     "scripts": {
         "post-install-cmd": [
-            "php artisan vendor:publish --force",
+            "php artisan vendor:publish --force --tag=boomcms",
             "php artisan clear-compiled",
             "php artisan boomcms:publish --force",
             "php artisan boomcms:installTemplates",
@@ -39,7 +39,7 @@
             "php artisan optimize"
         ],
         "post-update-cmd": [
-            "php artisan vendor:publish --force",
+            "php artisan vendor:publish --force --tag=boomcms",
             "php artisan clear-compiled",
             "php artisan boomcms:publish --force",
             "php artisan boomcms:installTemplates",
@@ -49,7 +49,7 @@
         "post-create-project-cmd": [
             "php -r \"copy('.env.example', '.env');\"",
             "php artisan key:generate",
-            "php artisan vendor:publish",
+            "php artisan vendor:publish --tag=boomcms",
             "php -r \"copy('addons.json.example', 'storage/boomcms/addons.json');\""
         ]
     },
