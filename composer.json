@@ -24,10 +24,10 @@
             "storage/boomcms/themes/"	
         ]
     },
-        "prefer-stable": true,
-        "config": {
-                "preferred-install": "dist"
-        },
+    "prefer-stable": true,
+    "config": {
+            "preferred-install": "dist"
+    },
     "minimum-stability": "dev",
     "scripts": {
         "post-install-cmd": [
@@ -35,7 +35,7 @@
             "php artisan clear-compiled",
             "php artisan boomcms:publish --force",
             "php artisan boomcms:installTemplates",
-            "php artisan migrate --path=migrations/boomcms --force",
+            "php -r \"try{exec('php artisan migrate --path=migrations/boomcms --force');} catch (\\Exception \\$e) {}\"",
             "php artisan optimize"
         ],
         "post-update-cmd": [
